@@ -1,0 +1,40 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  display: inline-block;
+  background-color: #e0ecf8;
+  border: 2px solid #1e3a8a;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.clock-time {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.zone-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
